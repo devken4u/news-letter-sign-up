@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+    <title>
+      Frontend Mentor | Newsletter sign-up form with success message
+    </title>
+  </head>
+  <body>
+    <main class="sign-up-container">
+      <div class="sign-up-form">
+        <p class="sign-up-title">Stay updated!</p>
+        <p class="sign-up-description">
+          Stay updated! Join 60,000+ product managers receiving monthly updates
+          on:
+        </p>
+        <div class="information-list-container">
+          <ul>
+            <li>
+              <span><img src="assets/images/icon-list.svg" alt="" /></span
+              >Product discovery and building what matters
+            </li>
+            <li>
+              <span><img src="assets/images/icon-list.svg" alt="" /></span
+              >Measuring to ensure updates are a success
+            </li>
+            <li>
+              <span><img src="assets/images/icon-list.svg" alt="" /></span>And
+              much more!
+            </li>
+          </ul>
+        </div>
+        <div class="email-input-container">
+          <label for="email">Email address</label>
+          <span class="email-error hide">Valid email required</span>
+          <input
+            type="email"
+            id="email"
+            class="email"
+            placeholder="email@company.cbm"
+          />
+        </div>
+        <button class="subscribe">Subscribe to monthly newsletter</button>
+      </div>
+      <div class="sign-up-image">
+        <img
+          id="sign-up-image"
+          src="assets/images/illustration-sign-up-mobile.svg"
+          alt=""
+        />
+      </div>
+    </main>
+  </body>
+</html>
