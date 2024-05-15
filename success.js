@@ -14,3 +14,7 @@ function getCookie(name) {
   }
   return null;
 }
+
+document.querySelector(".dismiss").addEventListener("click", () => {
+  window.location.href = "index.html";
+});
